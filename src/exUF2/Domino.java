@@ -55,6 +55,7 @@ public class Domino {
     }
 
 
+
     public void generateRecords() {
         System.out.println("Fichas del domino:");
 
@@ -63,6 +64,7 @@ public class Domino {
             for (int j = 0; j < arr[i].length; j++) {
                 if (i <= j) {
                     this.records.add(String.format("%s-%s", i, j));
+                    //this.records.add(i+"-"+j);
                     System.out.printf("Ficha %s: %s-%s%n", records.size(), i, j);
                 }
             }

@@ -59,7 +59,7 @@ public class Cake {
         this.name = name;
     }
 
-    /*@Override
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -70,7 +70,7 @@ public class Cake {
     @Override
     public int hashCode() {
         return Objects.hash(hasSugar, size, price, name);
-    }*/
+    }
 
 
     public static void main(String[] args) {

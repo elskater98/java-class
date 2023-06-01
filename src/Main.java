@@ -17,7 +17,8 @@ public class Main {
         boolean bool = true;
 
         // Strings
-        String str = "Hello World";
+        String str= "Hello World";
+
 
 
         // if-else
@@ -62,7 +63,6 @@ public class Main {
         Scanner userInput = new Scanner(System.in);
         int age = userInput.nextInt();
         System.out.println(age);
-
     }
 
 }

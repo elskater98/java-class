@@ -1,4 +1,7 @@
-public class Dog extends Animal implements Pet {
+public class Dog extends Animal implements Pet{
+
+    // public String name;
+    // private String family;
     private String owner;
 
     public Dog(String name, String family, String owner) {
@@ -19,12 +22,12 @@ public class Dog extends Animal implements Pet {
     @Override
     public void myOwnerIs() {
         System.out.println(this.owner);
-
     }
 
     public static void main(String[] args) {
 
         Dog dog = new Dog("Bruno", "Terrier", "Jess");
+
         System.out.println(dog.getFamily());
         dog.setFamily("Bulldog");
 
